@@ -1,11 +1,12 @@
-import React from "react";
+import React, { Component } from "react";
 
-function Body() {
-  return (
-    <div>
-      <p>I AM a body section</p>
-    </div>
-  );
+class Body extends Component {
+  render() {
+    return (
+      <div>
+        <p>Body paragraph</p>
+      </div>
+    );
+  }
 }
-
 export default Body;
