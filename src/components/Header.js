@@ -14,6 +14,7 @@ class Header extends Component {
           <a href="#contact" alt="contact">
             Contact
           </a>
+          <a href="#support" alt="support">Support</a>
         </div>
       </div>
     );
