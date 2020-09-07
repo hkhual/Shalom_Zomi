@@ -1,22 +1,33 @@
 import React, { Component } from "react";
+import About from './About';
+import Body from './Body';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom';
 
 class Header extends Component {
   render() {
     return (
-      <div className="App">
-        <div className="header-link">
-          <a href="#home" alt="Home">
-            Home
-          </a>
-          <a href="#about" alt="About">
-            About
-          </a>
-          <a href="#contact" alt="contact">
-            Contact
-          </a>
-          <a href="#support" alt="support">Support</a>
+      <Router>
+        <div className="App">
+          <div className="header-link">
+            <Link to="/">Home</Link>
+            <Link to="/About">About</Link>
+          </div>
+            <Route
+              path="/"
+              component={Body} />
+            <Route
+              path="/About"
+              component={About} />
+
+
+        
         </div>
-      </div>
+      </Router>
     );
   }
 }
