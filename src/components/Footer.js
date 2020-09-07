@@ -46,6 +46,7 @@ const Footer = () =>{
       <div>Copyright: 2020 by HK. {year}</div>
       <div>This is {month +1 }</div>
       <div>This is {today}</div>
+      <div>This is Footer section</div>
     
     </div>
   );

@@ -9,7 +9,7 @@ body {
 }
 
 .header-link {
-  background-color: aqua;
+  background-color: rgb(79, 122, 241);
 }
 
 .header-link > a {
@@ -28,4 +28,21 @@ body {
 .footer-class {
   height: 50px;
   margin-top: -50px;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+      background-color: lightblue;
+    }
+
+
+
+  .header-link {
+    background-color: rgb(212, 0, 99);
+    
+  }
+
+  .header-link{
+
+  }
 }
