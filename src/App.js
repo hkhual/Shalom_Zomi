@@ -1,19 +1,41 @@
 import React, { Component } from "react";
 import "./App.css";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom';
 import Body from "./components/Body";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import About from './components/About';
+import Contact from './components/Contact';
+import NotFound from './components/NotFound';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <Header />
-        <Body />
-        <About />
-        <Footer />
-      </div>
+      <Router>
+        <div className="App">
+          <div className="header-link">
+            <Link to="/">Home</Link>
+            <Link to="/About">About</Link>
+            <Link to="/Contact">Contact</Link>
+          </div>
+        </div>
+        <Switch>
+          <Route
+            exact
+            path="/"
+            component={Body} />
+          <Route
+            path="/About"
+            component={About} />
+          <Route
+            path="/Contact"
+            component={Contact} />
+          <Route component={NotFound} />
+        </Switch>
+      </Router>
     );
   }
 }

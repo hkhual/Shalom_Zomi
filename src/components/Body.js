@@ -5,6 +5,7 @@ class Body extends Component {
     return (
       <div>
         <p>Body paragraph</p>
+        <p>Sample paragraph body</p>
       </div>
     );
   }
