@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import About from './About';
 import Body from './Body';
+import Contact from './Contact';
 import {
   BrowserRouter as Router,
   Switch,
@@ -9,13 +10,15 @@ import {
 } from 'react-router-dom';
 
 class Header extends Component {
-  render() {
+  render(){
     return (
       <Router>
         <div className="App">
-          <div className="header-link">
-            <Link to="/">Home</Link>
-            <Link to="/About">About</Link>
+            <div className="header-link">
+              <Link to="/">Home</Link>
+              <Link to="/About">About</Link>
+              <Link to="/Contact">Contact</Link>
+            </div>
           </div>
             <Route
               path="/"
@@ -23,10 +26,10 @@ class Header extends Component {
             <Route
               path="/About"
               component={About} />
+            <Route
+              path="/Contact"
+              component={Contact} />
 
-
-        
-        </div>
       </Router>
     );
   }
