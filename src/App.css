@@ -1,8 +1,22 @@
 html,
 body {
   height: 100%;
-  margin: 0;
 }
+
+.body-main{
+  margin-left: 10px;
+}
+
+.footer-main{
+  background-color: rgb(79, 122,241);
+  color: white;
+  bottom: 10px;
+  border: 3px solid #8AC007;
+  text-align: center;
+}
+
+
+
 
 .App {
   text-align: center;
@@ -25,9 +39,9 @@ body {
   background-color: powderblue;
 }
 
-.footer-class {
+.footer {
   height: 50px;
-  margin-top: -50px;
+
 }
 
 @media only screen and (max-width: 600px){
@@ -48,9 +62,5 @@ body {
   .header-link {
     background-color: rgb(212, 0, 99);
     
-  }
-
-  .header-link{
-
   }
 }

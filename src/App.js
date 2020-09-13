@@ -10,6 +10,7 @@ import Body from "./components/Body";
 import About from './components/About';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -35,6 +36,7 @@ class App extends Component {
             component={Contact} />
           <Route component={NotFound} />
         </Switch>
+        <Footer />
       </Router>
     );
   }
