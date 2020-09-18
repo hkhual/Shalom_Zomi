@@ -6,7 +6,6 @@ const year = date.getFullYear();
 const month = date.getMonth();
 const day = date.getDay();
 
-
 let today = '';
 
 switch (day) {
@@ -34,8 +33,6 @@ switch (day) {
 
   default:
     today = 'underfined';
-
-
 }
 
 
@@ -43,6 +40,8 @@ const Footer = () => {
   return (
     <div className="footer-main">
       <div>Copyright: 2020 by HK. {year}</div>
+      <p>Privacy Policy</p>
+      <p>Terms and Conditions</p>
       <div>This is {month + 1}</div>
       <div>This is {today}</div>
     </div>

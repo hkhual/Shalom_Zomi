@@ -1,9 +1,22 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-class About extends Component{
-    render(){
-        return(
-            <div>About us</div>
+class About extends Component {
+    render() {
+        return (
+            <div>About us
+                <p>
+                    Welcome to Shalom Zomi Baptist Church.
+                </p>
+                <p>
+                    Topic: 1 <span>Section #1</span>
+                    <ul>
+                        <li>Section #1</li>
+                        <li>Section #2</li>
+                        <li>Section #3</li>
+                        <li>Section #3</li>
+                    </ul>
+                </p>
+            </div>
         );
     }
 }
