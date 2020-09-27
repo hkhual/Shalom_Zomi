@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import Privacy from './Privacy';
 
 const date = new Date();
 const year = date.getFullYear();
@@ -40,10 +41,10 @@ const Footer = () => {
   return (
     <div className="footer-main">
       <div>Copyright: 2020 by HK. {year}</div>
-      <p>Privacy Policy</p>
+      <a href={<Privacy />}><p>Privacy Policy</p></a>
       <p>Terms and Conditions</p>
-      <div>This is {month + 1}</div>
-      <div>This is {today}</div>
+      {/* <div>This is {month + 1}</div> */}
+      <div>Today is {today}</div>
     </div>
   );
 }
