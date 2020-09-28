@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         return (
-            <div>About us
+            <div class="body-main">About us
                 <p>
                     Welcome to Shalom Zomi Baptist Church.
                 </p>
