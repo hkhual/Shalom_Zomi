@@ -37,7 +37,7 @@ switch (day) {
 }
 
 
-const Footer = () => {
+function Footer() {
   return (
     <div className="footer-main">
       <div>Copyright: 2020 by HK. {year}</div>
@@ -45,6 +45,7 @@ const Footer = () => {
       <p>Terms and Conditions</p>
       {/* <div>This is {month + 1}</div> */}
       <div>Today is {today}</div>
+
     </div>
   );
 }

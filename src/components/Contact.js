@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-const Contact = () => {
+function Contact() {
     return (
         <div className="contact-form">
             <p>Contacting page</p>
