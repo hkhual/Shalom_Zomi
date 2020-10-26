@@ -6,10 +6,12 @@ import church_1 from '../images/church_1.jpg';
 import church_2 from '../images/church_2.jpg';
 import church_3 from '../images/church_3.jpg';
 
+import worship_lead from '../images/IMG_0100.JPG';
+
 class Body extends Component {
   render() {
     return (
-      <div class="body-main">
+      <div className="body-main">
         <h2>Imaging sliding</h2>
         <img src={table} alt="table background" width="700px" height="500px" />
         <img src={bible_book} alt="Bible Book" width="700px" height="500px" />
