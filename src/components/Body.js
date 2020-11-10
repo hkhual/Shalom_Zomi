@@ -19,6 +19,7 @@ class Body extends Component {
         <img src={church_1} alt="Church 1" width="700px" height="500px" />
         <img src={church_2} alt="Church 2" width="700px" height="500px" />
         <img src={church_3} alt="Church 3" width="700px" height="500px" />
+        <img src={worship_lead} alt="Church 4" width="700px" height="500px" />
 
       </div>
     );
