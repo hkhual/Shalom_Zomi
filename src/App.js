@@ -11,6 +11,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer';
+import Privacy from './components/Privacy';
 
 class App extends Component {
   render() {
@@ -34,6 +35,9 @@ class App extends Component {
           <Route
             path="/Contact"
             component={Contact} />
+          <Route
+            path="/Privacy"
+            component={Privacy} />
           <Route component={NotFound} />
         </Switch>
         <Footer />

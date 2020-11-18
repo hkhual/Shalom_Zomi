@@ -1,10 +1,10 @@
 import React from "react";
 import "./Footer.css";
-import Privacy from './Privacy';
+import { Link } from 'react-router-dom';
 
 const date = new Date();
 const year = date.getFullYear();
-const month = date.getMonth();
+// const month = date.getMonth();
 const day = date.getDay();
 
 let today = '';
@@ -41,7 +41,7 @@ function Footer() {
   return (
     <div className="footer-main">
       <div>Copyright: 2020 by HK. {year}</div>
-      <a href={<Privacy />}><p>Privacy Policy</p></a>
+      <Link to="/Privacy"><p>Privacy Policy</p></Link>
       <p>Terms and Conditions</p>
       {/* <div>This is {month + 1}</div> */}
       <div>Today is {today}</div>
