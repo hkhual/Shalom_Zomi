@@ -6,8 +6,16 @@ body {
 }
 
 .body-main{
-  margin-left: 10px;
-  margin-right: 10px;
+  /* margin-left: 10px;
+  margin-right: 10px; */
+  display: flex;
+  text-decoration: none;
+  margin: 20px;
+  justify-content: left;
+  flex-flow: column;
+
+
+
 }
 
 .about_main{
@@ -32,10 +40,6 @@ body {
   border: 3px solid #8AC007;
   text-align: center;
 }
-
-
-
-
 
 .App {
   text-align: center;
