@@ -11,11 +11,10 @@ body {
   display: flex;
   text-decoration: none;
   margin: 20px;
+  align-content: center;
   justify-content: left;
   flex-flow: column;
-
-
-
+  
 }
 
 .about_main{
@@ -30,16 +29,13 @@ body {
   
 }
 
-
-
-
 .footer-main{
   background-color: rgb(79, 122,241);
   color: white;
   bottom: 10px;
-  border: 3px solid #8AC007;
   text-align: center;
 }
+
 
 .App {
   text-align: center;

@@ -1,4 +1,9 @@
 import React, { Component } from "react";
+import AwesomeSlider from 'react-awesome-slider';
+import 'react-awesome-slider/dist/styles.css';
+
+import Slideshow from "./Slideshow.js";
+
 import table from '../images/table_background.jpeg';
 import bible_book from '../images/brown-book-page.jpg';
 import worship from '../images/hands-worship.jpg';
@@ -9,10 +14,21 @@ import worship_lead from '../images/IMG_0100.JPG';
 import Gal_Hiam from '../images/Gal_Hiam.jpg';
 import Cup from '../images/cup.png';
 
+
+// const slider = (
+//   <AwesomeSlider>
+//     <div data-src="../images/cup.png" />
+//     <div data-src="../images/Gal_Hiam.jpg" />
+//   </AwesomeSlider>
+// );
+
 class Body extends Component {
+
   render() {
     return (
       <div className="body-main">
+
+        {/* <Slideshow /> */}
         <h2>Imaging sliding</h2>
         <img src={table} alt="table background" width="700px" height="500px" />
         <img src={bible_book} alt="Bible Book" width="700px" height="500px" />
