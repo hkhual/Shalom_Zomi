@@ -1,31 +1,41 @@
 html,
 body {
-  margin:0;
+  /* margin:0;
   padding: 0;
-  height: 100%;
+  height: 100%; */
 }
 
-/* .body-main{
+.body-main{
   display: flex;
   text-decoration: none;
- margin: 20px;
+  margin: 20px;
   justify-content: left;
   flex-flow: column;
 
-} */
+} 
 
 .slide-show{
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; 
   width: 50%;
   height: auto;
   object-fit: cover;
 }
 
 .about_main{
-  margin-left: 10px;
-  margin-right: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+
+
+}
+
+img{
+  width: 100x;
+  height: 300px;
 }
 
 .contact-form{
@@ -36,9 +46,12 @@ body {
 }
 
 .footer-main{
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: rgb(79, 122,241);
   color: white;
-  bottom: 10px;
   text-align: center;
 }
 

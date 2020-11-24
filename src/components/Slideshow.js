@@ -16,15 +16,15 @@ function Slideshow() {
   return (
     <div className="slide-show">
       <AliceCarousel autoPlay autoPlayInterval="3000" mouseTracking infinite>
-        <img src={table} alt="cup" />,
-            <img src={bible_book} alt="cup" />,
-            <img src={worship} alt="cup" />,
-            <img src={church_1} alt="cup" />,
-            <img src={church_2} alt="cup" />,
-            <img src={church_3} alt="cup" />,
-            <img src={worship_lead} alt="cup" />,
-            <img src={Gal_Hiam} alt="cup" />,
-            <img src={Cup} alt="cup" />
+        <img src={table} alt="cup" height="500px" />,
+        <img src={bible_book} alt="cup" height="500px" />,
+            <img src={worship} alt="cup" height="500px" />,
+            <img src={church_1} alt="cup" height="500px" />,
+            <img src={church_2} alt="cup" height="500px" />,
+            <img src={church_3} alt="cup" height="500px" />,
+            <img src={worship_lead} alt="cup" height="500px" />,
+            <img src={Gal_Hiam} alt="cup" height="500px" />,
+            <img src={Cup} alt="cup" height="500px" />
       </AliceCarousel>
     </div>
   );
