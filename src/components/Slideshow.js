@@ -12,20 +12,20 @@ import Gal_Hiam from '../images/Gal_Hiam.jpg'
 import Cup from '../images/cup.png';
 
 
-function Slideshow(){
-  return(
+function Slideshow() {
+  return (
     <div className="slide-show">
-        <AliceCarousel autoPlay autoPlayInterval="1000">
-            <img src={table} alt="cup" width="700px" height="500px" />,
-            <img src={bible_book} alt="cup" width="700px" height="500px" />,
-            <img src={worship} alt="cup" width="700px" height="500px" />,
-            <img src={church_1} alt="cup" width="700px" height="500px" />,
-            <img src={church_2} alt="cup" width="700px" height="500px" />,
-            <img src={church_3} alt="cup" width="700px" height="500px" />,
-            <img src={worship_lead} alt="cup" width="700px" height="500px" />,
-            <img src={Gal_Hiam}  alt="cup" width="700px" height="500px" />,
-            <img src={Cup} alt="cup" width="700px" height="500px" />
-        </AliceCarousel>
+      <AliceCarousel autoPlay autoPlayInterval="3000" mouseTracking infinite>
+        <img src={table} alt="cup" />,
+            <img src={bible_book} alt="cup" />,
+            <img src={worship} alt="cup" />,
+            <img src={church_1} alt="cup" />,
+            <img src={church_2} alt="cup" />,
+            <img src={church_3} alt="cup" />,
+            <img src={worship_lead} alt="cup" />,
+            <img src={Gal_Hiam} alt="cup" />,
+            <img src={Cup} alt="cup" />
+      </AliceCarousel>
     </div>
   );
 }
