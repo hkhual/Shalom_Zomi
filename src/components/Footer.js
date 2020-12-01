@@ -42,8 +42,6 @@ function Footer() {
     <div className="footer-main">
       <div>Copyright: 2020 by HK. {year}</div>
       <Link to="/Privacy"><p>Privacy Policy</p></Link>
-      <p>Terms and Conditions</p>
-      {/* <div>This is {month + 1}</div> */}
       <div>Today is {today}</div>
 
     </div>

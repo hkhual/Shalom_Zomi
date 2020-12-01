@@ -12,16 +12,18 @@ import Contact from './components/Contact';
 import NotFound from './components/NotFound';
 import Footer from './components/Footer';
 import Privacy from './components/Privacy';
+import worship from './images/logo512.png';
 
 class App extends Component {
   render() {
     return (
       <Router>
-        <div className="App">
+        <div>
           <div className="header-link">
-            <Link to="/">Home</Link>
-            <Link to="/About">About</Link>
-            <Link to="/Contact">Contact</Link>
+            <Link to="/"><img src={worship} alt="cup" className="logoImage" /></Link>
+            {/* <Link to="/">Home</Link> */}
+            {/* <Link to="/About">About</Link> */}
+            {/* <Link to="/Contact">Contact</Link> */}
           </div>
         </div>
         <Switch>
@@ -29,18 +31,17 @@ class App extends Component {
             exact
             path="/"
             component={Body} />
-          <Route
+          {/* <Route
             path="/About"
-            component={About} />
-          <Route
+            component={About} /> */}
+          {/* <Route
             path="/Contact"
-            component={Contact} />
+            component={Contact} /> */}
           <Route
             path="/Privacy"
             component={Privacy} />
           <Route component={NotFound} />
         </Switch>
-        <Footer />
       </Router>
     );
   }
