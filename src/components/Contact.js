@@ -1,5 +1,4 @@
 import React from 'react';
-import Footer from './Footer.js';
 
 function Contact() {
     return (
@@ -12,12 +11,8 @@ function Contact() {
                         <input type="text" id="fname" name="fname" /><br />
                         <label for="lname">Last name:</label><br />
                         <input type="text" id="lname" name="lname" /><br />
-                        <label for="fpassword">Passowrd:</label><br />
-                        <input type="password" name="lpassword" />
                         <button>submit</button>
                     </form>
-
-
                 </div>
             </div>
         </div>

@@ -1,49 +1,21 @@
 import React from "react";
 import "./Footer.css";
-import { Link } from 'react-router-dom';
-
-const date = new Date();
-const year = date.getFullYear();
-// const month = date.getMonth();
-const day = date.getDay();
-
-let today = '';
-
-switch (day) {
-  case 0:
-    today = 'Sunday';
-    break;
-  case 1:
-    today = 'Monday';
-    break;
-  case 2:
-    today = 'Tuesday';
-    break;
-  case 3:
-    today = 'Wednesday';
-    break;
-  case 4:
-    today = 'Thursday';
-    break;
-  case 5:
-    today = 'Friday';
-    break;
-  case 6:
-    today = 'Saturday';
-    break;
-
-  default:
-    today = 'underfined';
-}
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom';
+import fbIcon from '../images/facebook_icon.png';
 
 function Footer() {
   return (
     <div className="footer-main">
-      <div>Copyright: 2020 by HK. {year}</div>
-      <Link to="/Privacy"><p>Privacy Policy</p></Link>
-      <div>Today is {today}</div>
+      <div>Copyright: 2020, SZBC.</div>
 
+      <div className="footer-images">
+        <a target="_blank" href="https://www.facebook.com/shalomchurchclt/"><img src={fbIcon} alt="Facebook" /></a>
+      </div>
     </div>
   );
 }
