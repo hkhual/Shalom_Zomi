@@ -3,7 +3,7 @@ body {
  height: 100%;
  margin: 0;
  padding: 0;
- background-color: rgb(221, 221, 220);
+ background-color: rgb(197, 197, 194);
 }
 
 .logoImage{
@@ -14,22 +14,27 @@ body {
   margin-bottom: 0.5em;
 }
 
-.body-main{
+/* .body-main{
   display: flex;
   text-decoration: none;
   margin: 20px;
   justify-content: left;
   flex-flow: column;
 
-} 
-
+}  */
+/* 
 .slide-show{
-  display: block;
   margin-left: auto;
   margin-right: auto; 
-  width: 50%;
-  height: auto;
+  width: 70%;
+  height: 5%;
   object-fit: cover;
+} */
+
+.slideImage{
+  width: 100%;
+  height: 400px;
+  object-fit: cover
 }
 
 .about_main{
@@ -39,33 +44,29 @@ body {
   width: 50%;
   height: auto;
   clear: both;
-/* margin-bottom:500px; */
-
 }
 
 /* img{
-  width: 100x;
+  width: 100px;
   height: 300px;
 } */
 
-.contact-form{
-  /* margin-left: 10px; */
+ .contact-form{
+   margin-left: 10px; 
   width: 300px;
   margin: 0 auto;
 
 }
 
 .footer-main{
-  /* position: relative; */
+   position: relative; 
   left: 0;
   right: 0;
-  /* width:100%; */
+   width:100%; 
   background-color: rgb(85, 91, 107);
   color: white;
   text-align: center;
-  /* margin: 5em; */
-  padding: 10px;
-}
+  }
 
 
 .App {
@@ -76,6 +77,9 @@ body {
 .header-link {
   background-color: rgb(85, 91, 107);
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 
 }
 
@@ -86,6 +90,21 @@ body {
   /* color: white; */
   justify-content: left;
   font-size: 20px;
+}
+
+.satCircle{
+  border: 1px solid #03a4f5;
+  border-radius: 50px;
+  padding: 15px;
+  height: 70px;
+  width: 70px;
+  font-weight: bold;
+  overflow: hidden;
+  margin: 5em;
+}
+
+.serviceTime{
+  display: flex;
 }
 
 /* .header-link > a:hover {
@@ -110,5 +129,11 @@ body {
   .header-link {
     background-color: rgb(212, 0, 99);
 
+  }
+
+  .footer-images > img{
+    height: 50px;
+    width: 50px;
+    background-color: burlywood;
   }
 }

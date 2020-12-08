@@ -12,7 +12,6 @@ class Body extends Component {
         <div className="body-main">
           <Slideshow />
           <About />
-          <Contact />
         </div>
         <Footer />
       </div>
