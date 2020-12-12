@@ -8,7 +8,6 @@ import {
 } from 'react-router-dom';
 import Body from "./components/Body";
 import NotFound from './components/NotFound';
-import Privacy from './components/Privacy';
 import worship from './images/logo512.png';
 
 class App extends Component {
@@ -24,12 +23,9 @@ class App extends Component {
             exact
             path="/"
             component={Body} />
-
-          <Route
-            path="/Privacy"
-            component={Privacy} />
           <Route component={NotFound} />
         </Switch>
+
       </Router>
     );
   }

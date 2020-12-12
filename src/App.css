@@ -14,23 +14,6 @@ body {
   margin-bottom: 0.5em;
 }
 
-/* .body-main{
-  display: flex;
-  text-decoration: none;
-  margin: 20px;
-  justify-content: left;
-  flex-flow: column;
-
-}  */
-/* 
-.slide-show{
-  margin-left: auto;
-  margin-right: auto; 
-  width: 70%;
-  height: 5%;
-  object-fit: cover;
-} */
-
 .slideImage{
   width: 100%;
   height: 400px;
@@ -44,12 +27,9 @@ body {
   width: 50%;
   height: auto;
   clear: both;
+  text-align: center;
 }
 
-/* img{
-  width: 100px;
-  height: 300px;
-} */
 
  .contact-form{
    margin-left: 10px; 
@@ -58,15 +38,17 @@ body {
 
 }
 
+
+
 .footer-main{
-   position: relative; 
-  left: 0;
-  right: 0;
-   width:100%; 
+  position: relative; 
+  width:100%; 
+  bottom: 0;
   background-color: rgb(85, 91, 107);
   color: white;
   text-align: center;
   }
+
 
 
 .App {
@@ -101,25 +83,22 @@ body {
   font-weight: bold;
   overflow: hidden;
   margin: 5em;
+  align-items: center;
 }
 
 .serviceTime{
   display: flex;
 }
 
-/* .header-link > a:hover {
-    background-color: powderblue; 
-} */
-
 @media only screen and (max-width: 600px){
     body{
       background-color: lightblue;
     }
 
-    img{
+    /* img{
       width: 350px;
       height: 320px;
-    }
+    } */
 
     .body-main{
       margin-left: 10px;
@@ -132,8 +111,7 @@ body {
   }
 
   .footer-images > img{
-    height: 50px;
-    width: 50px;
-    background-color: burlywood;
+    width: 100%;
+    height: auto;
   }
 }
