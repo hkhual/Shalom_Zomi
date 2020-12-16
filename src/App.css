@@ -44,14 +44,11 @@ body {
   flex-direction: row;
   justify-content: space-between;
 
-
 }
 
 .header-link > a {
   display: inline-block;
   text-decoration: none;
-  /* margin: 20px; */
-  /* color: white; */
   justify-content: left;
   font-size: 20px;
 }
