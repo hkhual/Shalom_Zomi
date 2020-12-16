@@ -15,9 +15,8 @@ class App extends Component {
     return (
       <Router>
         <div className="header-link">
-          <Link to="/"><img src={worship} alt="cup" className="logoImage" /></Link>
-          <h2 style={{ color: 'white', textAlign: 'center', marginRight: '10px' }}>SHALOM ZOMI BAPTIST CHURCH</h2>
-        </div>
+          <Link to="/"><img src={worship} alt="Shalom Zomi Baptist Church" className="logoImage" /></Link>
+          <h2 className="header-title" style={{ color: 'white' }}>SHALOM ZOMI BAPTIST CHURCH</h2></div>
         <Switch>
           <Route
             exact
@@ -26,7 +25,7 @@ class App extends Component {
           <Route component={NotFound} />
         </Switch>
 
-      </Router>
+      </Router >
     );
   }
 }
