@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Shalom_Zomi/static/css/main.34b866e4.chunk.css",
+    "main.js": "/Shalom_Zomi/static/js/main.fa788162.chunk.js",
+    "main.js.map": "/Shalom_Zomi/static/js/main.fa788162.chunk.js.map",
+    "runtime-main.js": "/Shalom_Zomi/static/js/runtime-main.3cc92df8.js",
+    "runtime-main.js.map": "/Shalom_Zomi/static/js/runtime-main.3cc92df8.js.map",
+    "static/css/2.cebec226.chunk.css": "/Shalom_Zomi/static/css/2.cebec226.chunk.css",
+    "static/js/2.76b5f3ce.chunk.js": "/Shalom_Zomi/static/js/2.76b5f3ce.chunk.js",
+    "static/js/2.76b5f3ce.chunk.js.map": "/Shalom_Zomi/static/js/2.76b5f3ce.chunk.js.map",
+    "index.html": "/Shalom_Zomi/index.html",
+    "precache-manifest.ba997c1140ce02e3ef690d78e4f48e13.js": "/Shalom_Zomi/precache-manifest.ba997c1140ce02e3ef690d78e4f48e13.js",
+    "service-worker.js": "/Shalom_Zomi/service-worker.js",
+    "static/css/2.cebec226.chunk.css.map": "/Shalom_Zomi/static/css/2.cebec226.chunk.css.map",
+    "static/css/main.34b866e4.chunk.css.map": "/Shalom_Zomi/static/css/main.34b866e4.chunk.css.map",
+    "static/js/2.76b5f3ce.chunk.js.LICENSE.txt": "/Shalom_Zomi/static/js/2.76b5f3ce.chunk.js.LICENSE.txt",
+    "static/media/IMG_0015.JPG": "/Shalom_Zomi/static/media/IMG_0015.fc889811.JPG",
+    "static/media/IMG_0017.JPG": "/Shalom_Zomi/static/media/IMG_0017.77e75e0f.JPG",
+    "static/media/IMG_0085.JPG": "/Shalom_Zomi/static/media/IMG_0085.29cc2ca5.JPG",
+    "static/media/IMG_0100.JPG": "/Shalom_Zomi/static/media/IMG_0100.a6f21e90.JPG",
+    "static/media/church_1.jpg": "/Shalom_Zomi/static/media/church_1.55eaba53.jpg",
+    "static/media/church_4.JPG": "/Shalom_Zomi/static/media/church_4.a0347b25.JPG",
+    "static/media/logo512.png": "/Shalom_Zomi/static/media/logo512.db6a9513.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3cc92df8.js",
+    "static/css/2.cebec226.chunk.css",
+    "static/js/2.76b5f3ce.chunk.js",
+    "static/css/main.34b866e4.chunk.css",
+    "static/js/main.fa788162.chunk.js"
+  ]
+}
