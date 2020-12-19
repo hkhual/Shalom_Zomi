@@ -1,17 +1,50 @@
 import React from 'react';
 import fbIcon from '../images/facebook_icon.png';
+import InstagramIcon from '../images/instagram_icon.png';
+
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+} from 'react-router-dom';
+
+
+let footerStyle = {
+    position: 'flex',
+    marginTop: '300px',
+    bottom: 0,
+    width: '100%',
+
+    backgroundColor: '#555b6b',
+    textAlign: 'center',
+    color: 'white',
+    marginLeft: '0',
+    marginRight: '0'
+
+
+};
+
+let styleMain = {
+    display: 'flex',
+    flexDirection: 'column',
+    textAlign: 'center',
+};
+
 
 function NotFound() {
     return (
-        <div>
-            <h1>Not Found</h1>
-            <div className="footer-main">
+        <div style={styleMain}>
+            <h1>404 Error. Not Found</h1>
+            <p>Go back to <Link to="/">homepage</Link></p>
+            <div style={footerStyle}>
                 <p>Copyright: 2020, SZBC.</p>
-                <div className="footer-images">
-                    <a target="_blank" href="https://www.facebook.com/shalomchurchclt/" rel="noopener noreferrer">
-                        <img src={fbIcon} alt="Facebook" />
-                    </a>
-                </div>
+                <a target="_blank" href="https://www.facebook.com/shalomchurchclt/" rel="noopener noreferrer">
+                    <img src={fbIcon} alt="Facebook" />
+                </a>
+                <a target="_blank" href="https://www.instagram.com/shalomchurchclt/" rel="noopener noreferrer">
+                    <img src={InstagramIcon} alt="Instagram" />
+                </a>
             </div>
         </div>
 

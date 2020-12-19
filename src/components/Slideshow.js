@@ -3,11 +3,11 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 
 import imag1 from '../images/church_1.jpg';
-import imag2 from '../images/IMG_0015.jpg';
-import imag3 from '../images/IMG_0017.jpg';
-import imag4 from '../images/church_4.jpg';
-import imag5 from '../images/IMG_0100.jpg';
-import imag6 from '../images/IMG_0085.jpg';
+import imag2 from '../images/IMG_0015.JPG';
+import imag3 from '../images/IMG_0017.JPG';
+import imag4 from '../images/church_4.JPG';
+import imag5 from '../images/IMG_0100.JPG';
+import imag6 from '../images/IMG_0085.JPG';
 
 
 function Slideshow() {

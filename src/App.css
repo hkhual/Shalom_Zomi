@@ -58,8 +58,9 @@ body {
   font-family: roboto;
   color: #5D5D5D;
   font-weight: 200;
-  border-bottom: 4px solid #76BEE1;
   margin-bottom: 20px;
+  text-decoration: underline;
+  text-decoration-color: #76BEE1;
 }
 
 
