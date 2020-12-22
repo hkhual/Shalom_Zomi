@@ -95,10 +95,12 @@ body {
   background-color: rgb(85, 91, 107);
   color: white;
   text-align: center;
+ 
   }
 
   .footer-images{
     margin-right: 25px;
+    padding-bottom: 25px;
   }
 
 
@@ -128,7 +130,7 @@ body {
   }
 
   .headerTimeService{
-      font-size:15px !important;
+      font-size:20px !important;
   }
 
  
