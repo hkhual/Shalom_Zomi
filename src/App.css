@@ -1,10 +1,11 @@
 html,
 body {
- /* height: 100%; */
  margin: 0;
  padding: 0;
  font-family: Roboto, Arial, sans-serif;
+ font-weight: 400;
 }
+
 
 .logoImage{
   height: 4em;
@@ -12,7 +13,7 @@ body {
   margin-left: 0.5em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-
+  
 }
 
 .header-title{
@@ -63,7 +64,6 @@ body {
   text-decoration-color: #76BEE1;
 }
 
-
 .satCircle{
   border: 1px solid #03a4f5;
   border-radius: 100px;
@@ -73,9 +73,9 @@ body {
   font-weight: bold;
   overflow: hidden;
   margin: 4em;
-  align-items: center;
   display: inline-block;
 }
+
 
 .address::before{
   font-family: fontawesome;
@@ -109,7 +109,6 @@ body {
       background-color: lightblue;
     }
 
-
     img{
       height: auto !important;
       max-width: 100% !important;
@@ -126,14 +125,17 @@ body {
 
   .header-link {
     background-color: rgb(212, 0, 99);
-
   }
 
   .headerTimeService{
       font-size:20px !important;
   }
 
- 
+  .about_main{
+    text-align: center;
+  }
+
+
   .satCircle{
     border: 1px solid #03a4f5;
     border-radius: 50px;
@@ -146,20 +148,9 @@ body {
     display: flex;
   }
 
-  .about_main{
-    display: block;
-    width: 50%;
-    height: auto;
-    clear: both;
-    text-align: center;
-  }
   .footer-images{
       margin-left: 10px;
       margin-left: 10px;
-  }
-
-  .footer-images{
-    margin-right: 25px;
   }
 
 }
