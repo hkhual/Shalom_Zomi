@@ -14,7 +14,7 @@ class Body extends Component {
           <About />
         </div>
         <div className="footer-main">
-          <p style={{ paddingTop: '10px' }}>Copyright: 2020, SZBC.</p>
+          <p style={{ paddingTop: '10px' }}>Copyright: 2021, SZBC.</p>
           <div className="footer-images">
             <a target="_blank" href="https://www.facebook.com/shalomchurchclt/" rel="noopener noreferrer">
               <img src={fbIcon} alt="Facebook" />

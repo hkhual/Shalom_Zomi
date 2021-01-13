@@ -3,15 +3,12 @@ import fbIcon from '../images/facebook_icon.png';
 import InstagramIcon from '../images/instagram_icon.png';
 
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
 } from 'react-router-dom';
 
 
 let footerStyle = {
-    position: 'flex',
+    position: 'absolute',
     marginTop: '300px',
     bottom: 0,
     width: '100%',
@@ -38,7 +35,7 @@ function NotFound() {
             <h1>404 Error. Not Found</h1>
             <p>Go back to <Link to="/">homepage</Link></p>
             <div style={footerStyle}>
-                <p>Copyright: 2020, SZBC.</p>
+                <p>Copyright: 2021, SZBC.</p>
                 <a target="_blank" href="https://www.facebook.com/shalomchurchclt/" rel="noopener noreferrer">
                     <img src={fbIcon} alt="Facebook" />
                 </a>

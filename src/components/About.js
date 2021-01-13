@@ -1,4 +1,4 @@
-import React, { button } from 'react';
+import React from 'react';
 // import fontAwesome from '../font-awesome.css';
 
 
@@ -15,7 +15,6 @@ function About() {
             <p className="satCircle">Sunday: 11:30AM</p>
             <div className="address"><p style={{ fontWeight: 'bold' }}>Location:
             7733 Harris Blvd, Charlotte, NC 28212</p></div>
-            <p className="fa fa-camera-retro">People</p>
         </div>
     );
 }
