@@ -3,6 +3,7 @@ import Slideshow from './Slideshow.js';
 import About from './About.js';
 import fbIcon from '../images/facebook_icon.png';
 import InstagramIcon from '../images/instagram_icon.png';
+import TimeClock from './TimeClock';
 
 class Body extends Component {
   render() {
@@ -11,7 +12,6 @@ class Body extends Component {
         <div className="body-main">
           <Slideshow />
           <About />
-
         </div>
         <div className="footer-main">
           <p style={{ paddingTop: '10px' }}>Copyright: 2021, SZBC.</p>
