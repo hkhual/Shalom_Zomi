@@ -4,6 +4,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  Outlet,
   Link
 } from 'react-router-dom';
 import Body from "./components/Body";
@@ -19,12 +20,11 @@ class App extends Component {
           <h2 className="header-title" style={{ color: 'white' }}>SHALOM ZOMI BAPTIST CHURCH</h2></div>
         <Switch>
           <Route
-            exact
+            // exact={true}
             path="/"
             component={Body} />
           <Route component={NotFound} />
         </Switch>
-
       </Router >
     );
   }
